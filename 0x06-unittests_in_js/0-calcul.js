@@ -1,8 +1,8 @@
-const calculatenumber = (a, b) => {
-	const aRound = Math.round(a);
-	const bRound = Math.round(b);
+const calculateNumber = (a, b) => {
+  const aRound = Math.round(a);
+  const bRound = Math.round(b);
 
-	return aRound + bRound;
+  return aRound + bRound;
 };
 
 module.exports = calculateNumber;
